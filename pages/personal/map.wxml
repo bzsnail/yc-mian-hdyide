@@ -1,0 +1,8 @@
+<map id="map"
+ latitude="{{coordinate.latitude}}"
+ longitude="{{coordinate.longitude}}"
+ scale="18"
+ markers="{{markers}}"
+ bindmarkertap="markertap"
+ show-location
+></map>

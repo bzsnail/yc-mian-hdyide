@@ -1,0 +1,24 @@
+.case-item {
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+}
+.case-item image {
+  width: 250rpx;
+  height: 200rpx;
+}
+.case-item-cont {
+  width: 430rpx; line-height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.case-item-cont>view:first-child {
+  font-size: 12pt;
+}
+.case-item-cont>view:nth-child(2) {
+  color: #888;
+  font-size: 11pt;
+}

@@ -1,0 +1,39 @@
+<swiper indicator-dots='{{true}}' current='0' skip-hidden-item-layout='{{true}}' bindchange='bindChangeFunc'>
+  <block wx:for="{{caseInfo.urls}}" wx:key='{{index}}'>
+    <swiper-item>
+      <image src='{{item}}' mode='scaleToFill' lazy-load='true'
+        data-src='{{item}}' data-list='{{bannerList}}' data-index='{{index}}'
+        binderror='bindImageError' bindload='bindImageLoad' bindtap='previewImage'>
+      </image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="line-m"></view>
+
+<view class="section-module">
+  <navigator url='/pages/personal/map?lat={{caseInfo.latitude}}&long={{caseInfo.longitude}}'>
+  <view class="section-item" bindtap='gotoMap'>
+    <image src="/images/coordinate.png"></image>
+    <view>{{caseInfo.address}}</view>
+    <span></span>
+  </view>
+  </navigator>
+</view>
+<view class="section-module">
+  <view class="section-item item-contact">
+    <image src="/images/contact.png"></image>
+    <view>{{caseInfo.phone}}</view>
+    <span></span>
+  </view>
+</view>
+
+<view class="line-m"></view>
+
+
+<view class="rich-text">
+<block wx:for="{{caseInfo.desc}}" wx:key='desc_{{index}}'>
+  <view wx-if="{{item.type=='text'}}">{{item.value}}</view>
+  <image wx-if="{{item.type=='image'}}" src="{{item.value}}" mode="widthFix"></image>
+</block>
+</view>

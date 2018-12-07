@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/case/index",
+    "pages/case/detail",
+    "pages/personal/index",
+    "pages/personal/about",
+    "pages/personal/contact",
+    "pages/personal/map"
+  ],
+  "window": {
+    "backgroundColor": "#f8f8f8",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "邯郸义徳房产",
+    "navigationBarTextStyle": "black",
+    "backgroundColorTop": "#f8f8f8",
+    "backgroundColorBottom": "#f8f8f8",
+    "onReachBottomDistance": 300
+  },
+  "cloud": true,
+  "tabBar": {
+    "borderStyle": "black",
+    "selectedColor": "#06a855",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/favourite.png",
+        "selectedIconPath": "images/favourite-on.png"
+      },
+      {
+        "pagePath": "pages/case/index",
+        "text": "项目",
+        "iconPath": "images/favourite.png",
+        "selectedIconPath": "images/favourite-on.png"
+      },
+      {
+        "pagePath": "pages/personal/index",
+        "text": "我的",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user-on.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}

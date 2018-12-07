@@ -1,0 +1,10 @@
+<view class='about-view'>
+
+  <view class='label'>联系方式</view>
+
+  <view class='text'>电话：0310-6058411</view>
+  <view class='text'>地址：邯郸市丛台区联纺东路334号华浩天际B座2712室</view>
+  
+  <image src="../../images/qrcode.jpeg"></image>
+
+</view>

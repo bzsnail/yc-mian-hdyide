@@ -1,0 +1,44 @@
+.section-navs {
+  padding: 30rpx 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #fff;
+}
+.section-navs view {
+  width: 160rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-navs view image {
+  width: 120rpx; height: 120rpx;
+  border-radius: 50%;
+}
+
+.section-label {
+  width: 100vw; height: 3rem; line-height: 3rem;
+  background: #fff;
+  font-size: 12pt;
+  display: flex;
+  align-items: center;
+}
+.section-label image {
+  width: 28px; height: 28px;
+  margin: 0 10px;
+}
+
+.case-list {
+  width: 100vw;
+}
+.case-item {
+  width: 700rpx;
+  padding: 25rpx 25rpx 0;
+  background: #fff;
+}
+.case-item view {
+  line-height: 2rem;
+  font-size: 11pt;
+}

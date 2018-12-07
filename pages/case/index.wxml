@@ -1,0 +1,15 @@
+
+<block wx:for="{{dataList}}" wx:key='{{index}}'>
+
+<view class="line-m"></view>
+
+<navigator url='/pages/case/detail?id={{item._id}}'>
+<view class='case-item'>
+  <image src="{{item.urls[0]}}" mode="aspectFill"></image>
+  <view class='case-item-cont'>
+    <view>{{item.name}}</view>
+    <view>{{item.address}}</view>
+  </view>
+</view>
+</navigator>
+</block>
