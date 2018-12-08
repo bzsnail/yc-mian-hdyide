@@ -4,5 +4,7 @@
  scale="18"
  markers="{{markers}}"
  bindmarkertap="markertap"
+ enable-3D="{{true}}"
  show-location
+ show-compass
 ></map>

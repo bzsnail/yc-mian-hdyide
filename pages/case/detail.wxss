@@ -9,12 +9,12 @@
     position: relative;
 }
 .section-item image {
-    margin: 3vw;
+    margin: 4vw;
     width: 6vw; height: 6vw;
     background: transparent;
 }
 .section-item view {
-    width: 60vw;
+    width: 60vw; line-height: 1.8em;
 }
 .section-module span {
     margin-right: 3vw;

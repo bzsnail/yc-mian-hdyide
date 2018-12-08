@@ -21,11 +21,13 @@
   </navigator>
 </view>
 <view class="section-module">
+  <navigator url='/pages/personal/contact'>
   <view class="section-item item-contact">
     <image src="/images/contact.png"></image>
-    <view>{{caseInfo.phone}}</view>
+    <view>联系我们</view>
     <span></span>
   </view>
+  </navigator>
 </view>
 
 <view class="line-m"></view>
@@ -37,3 +39,5 @@
   <image wx-if="{{item.type=='image'}}" src="{{item.value}}" mode="widthFix"></image>
 </block>
 </view>
+
+<view class='footer'>© 邯郸义徳房产</view>

@@ -35,10 +35,14 @@
 }
 .case-item {
   width: 700rpx;
-  padding: 25rpx 25rpx 0;
+  padding: 25rpx 25rpx 10rpx;
   background: #fff;
 }
 .case-item view {
   line-height: 2rem;
   font-size: 11pt;
+}
+.case-item .title {
+  font-size: 12pt;
+  font-weight: bold;
 }

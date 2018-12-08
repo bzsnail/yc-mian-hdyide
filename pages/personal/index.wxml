@@ -7,7 +7,7 @@
 
 <view class="section-module">
   <view class="section-item" bindtap='doPhone'>
-    <image src="/images/coordinate.png"></image>
+    <image src="/images/phone-on.png"></image>
     <view>预约看房</view>
     <span></span>
   </view>
@@ -24,18 +24,9 @@
 <view class="line-m min"></view>
 
 <view class="section-module">
-  <navigator url='/pages/personal/about'>
-  <view class="section-item">
-    <image src="/images/info-on.png"></image>
-    <view>关于义徳</view>
-    <span></span>
-  </view>
-  </navigator>
-</view>
-<view class="section-module">
   <navigator url='/pages/personal/contact'>
   <view class="section-item">
-    <image src="/images/coordinate.png"></image>
+    <image src="/images/address.png"></image>
     <view>联系方式</view>
     <span></span>
   </view>
@@ -46,6 +37,15 @@
   <view class="section-item">
     <image src="/images/coordinate.png"></image>
     <view>地址</view>
+    <span></span>
+  </view>
+  </navigator>
+</view>
+<view class="section-module">
+  <navigator url='/pages/personal/about'>
+  <view class="section-item">
+    <image src="/images/info-on.png"></image>
+    <view>关于义徳</view>
     <span></span>
   </view>
   </navigator>

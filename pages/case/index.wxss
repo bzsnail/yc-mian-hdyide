@@ -2,7 +2,7 @@
   padding: 20rpx;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   background: #fff;
 }
 .case-item image {
@@ -10,7 +10,7 @@
   height: 200rpx;
 }
 .case-item-cont {
-  width: 430rpx; line-height: 2rem;
+  width: 430rpx; line-height: 1.6rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -21,4 +21,5 @@
 .case-item-cont>view:nth-child(2) {
   color: #888;
   font-size: 11pt;
+  flex: 1;
 }
