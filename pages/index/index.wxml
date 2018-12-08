@@ -33,7 +33,7 @@
 <view class="line-m"></view>
 
 <view class="section-label">
-  <image src="/images/favourite-on.png"/>
+  <image src="/images/hot.png"/>
   <text>精品房源</text>
 </view>
 
