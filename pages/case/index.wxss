@@ -20,6 +20,6 @@
 }
 .case-item-cont>view:nth-child(2) {
   color: #888;
-  font-size: 11pt;
+  font-size: 10pt;
   flex: 1;
 }
