@@ -14,7 +14,7 @@
     background: transparent;
 }
 .section-item view {
-    width: 60vw; line-height: 1.8em;
+    width: 80vw; line-height: 1.8em;
 }
 .section-module span {
     margin-right: 3vw;

@@ -34,7 +34,7 @@
 
 <view class="section-label">
   <image src="/images/hot.png"/>
-  <text>精品房源</text>
+  <text>热门房源</text>
 </view>
 
 <view class="case-list">
