@@ -2,15 +2,19 @@
 Page({
   data: {
     dataList: [],
+    db: null
   },
   onLoad: function () {
+    this.setData({
+      db: wx.cloud.database()
+    })
     this.getData()
   },
   getData() {
     var that = this
 
-    const db = wx.cloud.database()
-    const coll = db.collection('case')
+    wx.showNavigationBarLoading()
+    const coll = this.data.db.collection('case')
     coll.get().then(res => {
       let list = res.data
       console.log(list)
@@ -20,6 +24,7 @@ Page({
           dataList: list
         })
       }
+      wx.hideNavigationBarLoading()
     })
   },
   onShareAppMessage: function () {

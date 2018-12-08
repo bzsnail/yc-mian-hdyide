@@ -35,6 +35,7 @@ Page({
   getHomepageCase() {
     var that = this
 
+    wx.showNavigationBarLoading()
     const coll = this.data.db.collection('case')
     coll.where({
       homepage: true
@@ -47,6 +48,7 @@ Page({
           dataList: list
         })
       }
+      wx.hideNavigationBarLoading()
     })
   },
   previewImage: function (event) {
