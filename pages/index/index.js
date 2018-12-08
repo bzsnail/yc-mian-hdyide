@@ -67,25 +67,10 @@ Page({
       url: '/pages/personal/about',
     })
   },
-  doPhone() {
-    let that = this
-    wx.showActionSheet({
-      itemList: [app.globalData.phoneNumber],
-      success(res) {
-        console.log(res)
-        if (res.tapIndex == 0) {
-          that.doPhoneCall()
-        }
-      },
-      fail(res) {
-        console.log(res)
-      }
-    })
-  },
   /**
    * 拨打电话
    */
-  doPhoneCall() {
+  doPhone() {
     wx.makePhoneCall({
       phoneNumber: app.globalData.phoneNumber
     })
