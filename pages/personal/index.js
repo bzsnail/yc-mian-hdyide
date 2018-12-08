@@ -27,7 +27,7 @@ Page({
    */
   doPhoneCall () {
     wx.makePhoneCall({
-      phoneNumber: '15210351071' //仅为示例，并非真实的电话号码
+      phoneNumber: app.globalData.phoneNumber
     })
   }
 

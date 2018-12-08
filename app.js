@@ -11,6 +11,7 @@ App({
   },
   globalData: {
     userInfo: null,
-    phoneNumber: '0310-6058411'
+    // phoneNumber: '0310-6058411'
+    phoneNumber: '15210351071'
   }
 })

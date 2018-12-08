@@ -1,0 +1,3 @@
+<template name="footer">
+  <view class='footer'>© 邯郸义徳房产</view>
+</template>

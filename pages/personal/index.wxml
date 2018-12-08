@@ -1,3 +1,5 @@
+<import src="../template/footer.wxml" />
+
 <view class="section-user">
   <open-data type="userAvatarUrl"></open-data>
   <open-data type="userNickName"></open-data>
@@ -50,3 +52,5 @@
   </view>
   </navigator>
 </view>
+
+<template is="footer"/>

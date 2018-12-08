@@ -1,3 +1,5 @@
+<import src="../template/footer.wxml" />
+
 <swiper indicator-dots='{{true}}' current='0' skip-hidden-item-layout='{{true}}' bindchange='bindChangeFunc'>
   <block wx:for="{{caseInfo.urls}}" wx:key='{{index}}'>
     <swiper-item>
@@ -40,4 +42,4 @@
 </block>
 </view>
 
-<view class='footer'>© 邯郸义徳房产</view>
+<template is="footer"/>

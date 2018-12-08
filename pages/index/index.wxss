@@ -17,6 +17,9 @@
   width: 120rpx; height: 120rpx;
   border-radius: 50%;
 }
+.section-navs view text {
+  margin: 10rpx;
+}
 
 .section-label {
   width: 100vw; height: 3rem; line-height: 3rem;
