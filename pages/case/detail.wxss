@@ -16,9 +16,13 @@
 .section-item view {
     width: 80vw; line-height: 1.8em;
 }
+.section-item.address view {
+  margin-top: 20rpx; margin-bottom: 20rpx; 
+  width: 85vw;
+}
 .section-module span {
     margin-right: 3vw;
-    width: 20vw;
+    width: 10vw;
     text-align: right;
 }
 .section-item span:after {
